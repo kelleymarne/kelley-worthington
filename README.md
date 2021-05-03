@@ -1,3 +1,3 @@
-# kelley-worthington
+# Kelley Worthington
 
 ## portfolio
