@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #c9c2c1;
+}
+header {
+    background-color: #19181A;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+}
+h1 {
+    color: #ddd1d6;
+    font-size: 30px;
+    font-family: 'Fjalla One', sans-serif;
+    letter-spacing: 1.5px;
+}
+.color-tone {
+    color: #B19F9E;
+}
+header nav {
+    margin: 8px 0;
+}
+header nav ul  {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+header nav ul li a{
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: #ddd1d6;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-right: 5px;
+}
+header nav ul li a:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+/* About me */
+#about-me {
+    margin: 35px;
+    background-color: #7f7d81;
+    color: #ddd1d6;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+    padding: 25px;
+}
+#about-me p {
+    width: 20%;
+    align-self: center;
+}
+
+/* Projects */
+#projects {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    align-content: space-around;
+    justify-content: space-around;
+    margin: 35px;
+    padding: 25px;
+    background-color: #7f7d81;
+    color: #ddd1d6;
+}
+
+/* Contact Me */
+#contact-me {
+    background-color: #19181A;
+    width: 100%;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+footer ul  {
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+footer ul li a{
+    font-family: 'Lato', sans-serif;
+    padding: 10px;
+    text-decoration: none;
+    color: #ddd1d6;
+    font-size: 15px;
+    letter-spacing: 2px;
+    margin-right: 10px;
+}
+footer ul li a:hover {
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+
+h3, p {
+    text-align: center;
+}
+.titles {
+    text-decoration: underline;
+    align-self: center;
+    width: 10%;
+    color: black;
+}
