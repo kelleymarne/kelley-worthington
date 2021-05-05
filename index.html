@@ -1,64 +1,145 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="./assets/css/styles.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&family=Lato&display=swap" rel="stylesheet">    <title>Kelley Worthington</title>
+    <title>Portfolio Site</title>
 </head>
-<body>
-    <header>
-        <h1>Kelley<span class="color-tone">Worthington</span></h1>
-        <nav>
-            <ul>
-                <li><a href="#about-me">About Me</a></li>
-                <li><a href="#projects">Projects</a></li>
-                <li><a href="#contact-me">Contact Me</a></li>
-            </ul>
-        </nav>
-    </header>
-    <section>
-     <div id="about-me">
-        <h2 class="titles">About Me</h2>
-                <img src="https://via.placeholder.com/200" alt="placeholder 200x200">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Neque nam harum eaque omnis consequuntur maxime itaque
-                    earum libero velit sapiente, ducimus corporis fuga suscipit magni voluptatibus! Accusamus modi ratione dicta.</p>
-    </div>
-    </section>
-    <section>
-    <div id="projects"> 
-        <h2 class="titles">Projects</h2>
-        <div class="run-buddy project-style">
-            <h3>Run Buddy</h3>
-            <p>Run Buddy Information</p>
-            <a href="https://kelleymarne.github.io/run-buddy/" target="_blank"><img src="assets/runbuddy.svg" alt="run buddy graphic" height="200px" width="200px"></a>
-        </div>
-    
-        <div class="future-project project-style">
-            <h3>Future Project </h3>
-            <p>Project Information</p>
-            <a href="#"><img src="https://via.placeholder.com/200" alt="placeholder future"></a>       
-        </div>
 
-        <div class="future-project project-style">
-            <h3>Future Project </h3>
-            <p>Project Information</p>
-            <a href="#"><img src="https://via.placeholder.com/200" alt="placeholder future"></a>
+<body>
+    <!-- Desktop Nav Bar -->
+    <section id="nav">
+        <div class="nav-bar">
+            <div class="links">
+                <ul>
+                    <li><a href="#name" id="name">Kelley Worthington</a></li>
+                    <li><a href="#projects" id="project">Projects</a></li>
+                    <li><a href="#aboutme" id="about">About</a></li>
+                    <li><a href="#contactme" id="contact">Contact Me</a></li>
+                </ul>
+            </div>
         </div>
-    </div>
     </section>
-<footer>
-    <div id="contact-me">
-        <h1>Contact<span class="color-tone">Me</span></h1>
-        <ul>
-        <li><a href="mailto:kelleymarne@gmail.com" target="_blank">Email Me</a></li>
-        <li><a href="#" target="_blank">Github</a></li>
-        <li><a href="https://www.linkedin.com/in/kelley-worthington-8347a7203/" target="_blank">Linkedin</a></li>
-    </ul>
-    </div>
-</footer>
+    <!-- End of Nav Bar -->
+
+    <!--Hero Section -->
+    <section id="hero">
+        <div class="container">
+            <div class="overlay"></div>
+            <div class="image-container"></div>
+        </div>
+        <div class="hero-text">
+            <h1>
+                <span class="keyWord">Solving</span><br />Problems & Learning <br /><span class="keyWord">Solutions</span>
+            </h1>
+            <a href="#" class="resume-cta"><span class="resume-text">Resume</span></a>
+        </div>
+    </section>
+    <!--End of Hero Section-->
+
+        <!-- About Me Section -->
+        <section id="aboutme">
+            <div class="about-container">
+                <div class="title-header">About Me</div>
+                <div class="about-section">
+                    <div class="img-container">
+                        <div class="about-image"></div>
+                    </div>
+                    <div class="about-text">
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam accusantium atque beatae voluptas
+                        assumenda explicabo placeat autem, expedita, delectus, exercitationem nam unde eum quia. Neque non
+                        atque voluptatem eaque qui!
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- End of About Me -->
+
+    <!-- Project Section -->
+    <section id="projects">
+        <div class="project-container">
+            <div class="title-header">Projects</div>
+            <div class="projects">
+                <!-- PROJECT 1 -->
+                <div class="project-item">
+                    <div class="future1-project">
+                        <div class="text-container">
+                            <h2 class="name">Future Website</h2>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus soluta tempore
+                                    vel omnis perspiciatis ipsam sunt ipsum, nam asperiores autem exercitationem
+                                    excepturi iure quisquam ex sit ipsa. Voluptatum, accusamus nisi?
+                                </p>
+                            </div>
+                            <button class="button">
+                                <a href="#">
+                                    <h3>View Project</h3>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT 2 -->
+                <div class="project-item">
+                    <div class="runbuddy-project">
+                        <div class="text-container">
+                            <h2 class="name">Runbuddy Website</h2>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus soluta tempore
+                                    vel omnis perspiciatis ipsam sunt ipsum, nam asperiores autem exercitationem
+                                    excepturi iure quisquam ex sit ipsa. Voluptatum, accusamus nisi?
+                                </p>
+                            </div>
+                            <button class="button">
+                                <a href="#">
+                                    <h3>View Project</h3>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <!-- PROJECT 3 -->
+                <div class="project-item">
+                    <div class="future2-project">
+                        <div class="text-container">
+                            <h2 class="name">Future Website</h2>
+                            <div class="content">
+                                <p>
+                                    Lorem ipsum, dolor sit amet consectetur adipisicing elit. Accusamus soluta tempore
+                                    vel omnis perspiciatis ipsam sunt ipsum, nam asperiores autem exercitationem
+                                    excepturi iure quisquam ex sit ipsa. Voluptatum, accusamus nisi?
+                                </p>
+                            </div>
+                            <button class="button">
+                                <a href="#">
+                                    <h3>View Project</h3>
+                                </a>
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- End of Project Section -->
+
+    <!-- Social Icons -->
+    <section id="contactme">
+        <div class="contact-container">
+            <div class="title-header">Contact Me</div>
+            <div class="contact-icons">
+                <div class="email"><a href="mailto:kelleymarne@gmail.com">Email</a></div>
+                <div class="github"><a href="#">Github</a></div>
+                <div class="linkedin"><a href="#">Linkedin</a></div>
+        </div>
+        </div>
+    </section>
 </body>
+
 </html>
