@@ -3,8 +3,15 @@
     padding: 0;
     margin: 0;
 }
+:root {
+    --dark: #19181A;
+    --light: #ddd1d6; 
+    --sage: #479761;
+    --lavender: #d3c5c5;
+    --dark-purple:#1f0b1c;
+}
 header {
-    background-color: #19181A;
+    background-color: var(--dark);
     width: 100%;
     padding: 15px;
     display: flex;
@@ -15,7 +22,7 @@ header {
     top: 0;
 }
 h1 {
-    color: #ddd1d6;
+    color: var(--light);
     font-size: 30px;
     font-family: 'Fjalla One', sans-serif;
     letter-spacing: 1.5px;
@@ -37,30 +44,33 @@ header nav ul li a{
     font-family: 'Lato', sans-serif;
     padding: 10px;
     text-decoration: none;
-    color: #ddd1d6;
+    color: var(--light);
     font-size: 15px;
     letter-spacing: 2px;
     margin-right: 5px;
 }
 header nav ul li a:hover {
-    font-size: 20px;
-    letter-spacing: 2px;
+    color: var(--dark);
+    background-color:var(--light);
+    border-radius: 5px;
 }
 
 .section-title {
     font-size: 48px;
-    border-bottom: 3px solid #479761;
+    border-bottom: 3px solid var(--sage);
     padding-bottom: 20px;
     text-align: center;
-    margin: 0 auto 35px auto;
+    margin: 10px auto 35px auto;
     width: 50%;
 }
+
 .bio-info {
     width: 50%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    
 }
 .bio {
     margin: 20px;
@@ -75,19 +85,22 @@ header nav ul li a:hover {
 
 
 /* Project Styles */
-.projects {
+.projects-container {
     width: 100%;
     margin: 0 auto;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
+
 }
 
 .project {
     margin: 20px;
-    background-color: #B19F9E;
-    color: #1f0b1c;
+    background-color: var(--lavender);
+    color: var(--dark-purple);
     flex: 1;
+    box-shadow: 2px 2px 12px;
+
 }
 .project img, .bio img {
     width: 100%;
@@ -108,10 +121,14 @@ header nav ul li a:hover {
 .flex-row {
     display: flex;
 }
+.run-buddy {
+    flex-grow: 2;
+}
+ 
 
 /* Contact Me Styles */
 .contact {
-    background-color: #19181A;
+    background-color: var(--dark);
     width: 100%;
     padding: 15px;
     display: flex;
@@ -129,12 +146,13 @@ footer ul li a{
     font-family: 'Lato', sans-serif;
     padding: 10px;
     text-decoration: none;
-    color: #ddd1d6;
+    color:var(--light);
     font-size: 15px;
     letter-spacing: 2px;
     margin-right: 10px;
 }
 footer ul li a:hover {
-    font-size: 20px;
-    letter-spacing: 2px;
+    color: var(--dark);
+    background-color: var(--light);
+    border-radius: 5px;
 }
