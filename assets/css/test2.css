@@ -45,6 +45,7 @@ li a {
     color: var(--mid-green);
     font-size: 30px;
     font-weight: bold;
+    text-shadow: 1px 1px 30px white;
 }
 
 /* HERO SECTION */
@@ -96,7 +97,7 @@ li a {
     text-transform: uppercase;
     z-index: 2;
 }
-.firstWord {
+.keyWord {
     color: var(--mid-green);
 }
 .resume-cta {
@@ -110,6 +111,35 @@ li a {
 }
 .resume-cta:hover {
     background-color: rgba(100, 100, 100, 0.4);
+}
+
+/* ABOUT ME */
+.about-container {
+    margin: 10%;
+    width: 80%;
+    height: auto;
+    background-color: #f8f8f8;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+}
+.about-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+}
+.about-image {
+    height: 450px;
+    width: 400px;
+    background-image: url(../images/sillhouette1.jpg);
+    background-size: cover;
+    background-position: center;
+    margin-bottom: 20px;
+}
+.about-text {
+    height: auto;
+    width: 40%;
+    font-size: 1.5rem;
+    margin: 100px;
 }
 
 /* PROJECT SECTION */
@@ -163,7 +193,7 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin: 50px;
-    background-image: url(../images/2plants.jpg);
+    background-image: url(../images/proj2.jpg);
     background-size: cover;
     background-position:bottom;
 }
@@ -207,33 +237,7 @@ li a {
     transition: all 1s ease-out;
 }
 
-/* ABOUT ME */
-.about-container {
-    margin: 10%;
-    width: 80%;
-    height: auto;
-    background-color: #f8f8f8;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-}
-.about-section {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-flow: wrap;
-}
-.about-image {
-    height: 450px;
-    width: 400px;
-    background-image: url(../images/sillhouette1.jpg);
-    background-size: cover;
-    background-position: center;
-}
-.about-text {
-    height: auto;
-    width: 40%;
-    font-size: 1.5rem;
-    margin: 100px;
-}
+/* Contact Me */
 
 .contact-icons {
     display: flex;
@@ -248,9 +252,8 @@ li a {
 
 }
 .contact-icons a:hover {
-    background:rgba(145, 233, 145, 0.4);
+    background:rgba(200, 241, 200, 0.712);
     padding: 10px;
     border-radius: 25px;
-    box-shadow: 4px 4px 20px var(--dark-green);
-    text-shadow: 6px 6px 30px var(--dark-green);
+    box-shadow: 2px 2px 20px rgba(199, 196, 188, 0.781);
 }
