@@ -38,6 +38,9 @@ li a {
     text-decoration: none;
     font-size: 1.5rem;
 }
+li a:hover {
+    text-decoration: underline;
+}
 #name {
     color: var(--mid-green);
     font-size: 30px;
@@ -228,6 +231,8 @@ li a {
     box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
     border-radius: 10px;
     margin-left: 5px;
+    transition: .3s ease-in-out;
+
 }
 .button h3 {
     color: var(--dark-green);
@@ -236,7 +241,6 @@ li a {
 }
 .button:hover {
     background-color:rgb(139, 168, 120);
-    transition: all 1s ease-out;
 }
 
 /* Contact Me */
@@ -325,6 +329,11 @@ li a {
         font-size: 1.5rem;
         width: 30%;
         /* margin: 5% 35%; */
+    }
+    .contact-icons a{
+        color: var(--mid-green);
+        padding: 10px;
+
     }
     .title-header {
         font-size: 3rem;
