@@ -37,15 +37,21 @@ li a {
     color: white;
     text-decoration: none;
     font-size: 1.5rem;
+    transition: .5s ease-in-out;
+
 }
 li a:hover {
     text-decoration: underline;
 }
+    
 #name {
     color: var(--mid-green);
     font-size: 30px;
     font-weight: bold;
     text-shadow: 1px 1px 30px white;
+}
+#name:hover {
+    text-decoration: none;
 }
 
 /* HERO SECTION */
@@ -104,16 +110,17 @@ li a:hover {
 .keyWord {
     color: var(--mid-green);
 }
-.resume-cta {
+.resume {
     border: 2px solid var(--mid-green);
     width: 175px;
     padding: 30px;
     margin-top: 20px;
+    transition: .5s ease-in-out;
 }
 .resume-text {
     color: #fff;
 }
-.resume-cta:hover {
+.resume:hover {
     background-color: rgba(100, 100, 100, 0.4);
 }
 
@@ -226,12 +233,14 @@ li a:hover {
     color: var(--mid-green);
 }
 .button {
-    border: 3px solid var(--mid-green);
     width: 160px;
-    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
-    border-radius: 10px;
     margin-left: 5px;
-    transition: .3s ease-in-out;
+    transition: .5s ease-in-out;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: -15px 7px 30px rgba(0, 0, 0, 0.2);
+
 
 }
 .button h3 {
@@ -241,6 +250,9 @@ li a:hover {
 }
 .button:hover {
     background-color:rgb(139, 168, 120);
+    border: 2px solid var(--mid-green);
+    border-radius: 10px;
+
 }
 
 /* Contact Me */
